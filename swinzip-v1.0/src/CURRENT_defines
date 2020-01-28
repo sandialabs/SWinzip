@@ -1,0 +1,15 @@
+# Change these paths depending on the compiler configuration and path
+
+# A compiler accommodating C++ 11 is required
+CXX = /usr/local/bin/g++
+CC = /usr/local/bin/gcc
+
+# Multicore mode require openblas. If avaliable, the path to the library file
+#is required here. If not, just leave blank
+OPENBLAS = /usr/local/openblas/lib
+
+# Multicore mode also requires openMP. If available just assign anything.
+# otherwise leave blank
+OPENMP = t
+
+RANLIB = ranlib
