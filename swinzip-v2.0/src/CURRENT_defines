@@ -1,9 +1,9 @@
 # Change these paths depending on the compiler configuration and path
 
 # A compiler accommodating C++ 11 is required
-CXX = /usr/local/bin/g++
-CC = /usr/local/bin/gcc
-MPICXX = /usr/local/bin/mpic++
+CXX = /usr/bin/g++
+CC = /usr/bin/gcc
+MPICXX = /usr/lib64/openmpi3/bin/mpic++
 
 # Multicore mode require openblas. If avaliable, the path to the library file
 #is required here. If not, just leave blank
