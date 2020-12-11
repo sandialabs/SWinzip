@@ -1,0 +1,17 @@
+extern "C" int get_exodus(char* input_file);
+extern "C" int put_exodus(char* input_file);
+extern "C" int free_memory(void);
+extern "C" void free_nodal_vars(void);
+extern "C" void setmem_x_y_z();
+extern "C" void copy_resize_x_y_z(int);
+extern "C" void setmem_el_blk();
+extern "C" void re_setmem_el_blk(int);
+extern "C" void setmem_el_connect();
+extern "C" void re_setmem_el_connect(int, int *);
+extern "C" void setmem_coord_names();
+extern "C" void setmem_elem_map();
+extern "C" void re_setmem_elem_map();
+extern "C" void setmem_ns();
+void setmem_ss();
+extern "C" void re_setmem_ss(int);
+extern "C" void re_setmem_ns();
