@@ -63,7 +63,7 @@ shown that it is best to run the library on Xeon CPUs with 4 or more cores.
 The Stagewise Orthogonal Matching Pursuit (StOMP) Matlab algorithm
 (SolveStOMP.m) was imported and improved.
 
-- Boost: (Boost Software License 1.0) available at: http://www.boost.org/
+- Boost 1.58: (Boost Software License 1.0) available at: http://www.boost.org/
 Boost header files where included in C++ code.
 
 - sparse-msrf: (BSD license) available at:
@@ -101,7 +101,7 @@ refer to /examples/compress_wavelets/README.txt for more info
 
 /examples/wavelet_compress_decompress_distributed:
 Optimal parallel data compression/decompression using wavelet compression with
-given thre.shold Please refer to
+given threshold Please refer to
 /examples/wavelet_compress_decompress_distributed/README.txt for more info
 
     
@@ -125,6 +125,8 @@ Compiling the library and example:
 For the library:
 - Go to /src
 - adjust the required settings in 'CURRENT_defines'
+(the C++ code will compile with gcc 4.8.5 but might compile with other versions.
+It is only tested with Boost 1.58)
 - run 'make'
 
 For the example:
